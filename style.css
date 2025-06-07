@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #111;
+    color: white;
+}
+
+header {
+    background: #222;
+    padding: 10px;
+    position: relative;
+}
+
+.menu-icono {
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+#menu-hambur {
+    display: none;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+#menu-hambur:checked + .menu-icono + .menu {
+    display: block;
+}
